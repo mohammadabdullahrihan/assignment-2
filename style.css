@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');   
+
+*{  
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;   
+    margin: 0;  
+    padding: 0;
+}       
+    
+body{  
+    background-color: black;
+}
+    
+header{ 
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);    
+    background-color: rgb(0, 0, 0);  
+    width: 100%;
+    height: 715px;
+
+}
+
+/* navbar start */      
+
+.brand{ 
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;   
+    padding: 40px 20px 30px 100px;
+}   
+
+.navbar{     
+    display: flex;  
+    justify-content: space-between;     
+    width: 100%;
+}   
+
+.nav-links{  
+    display: flex;  
+    margin: 40px 200px 30px 40px;   
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;    
+}   
+
+.nav-item{
+    list-style: none;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.nav-link{      
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}   
+
+.home-btn{  
+    list-style: none;   
+    padding: 7px;  
+    border-radius: 39px;    
+    background: rgb(230, 83, 60);
+}   
+
+/* banner Section start */      
+
+.banner{   
+    display: flex;  
+    justify-content: space-between; 
+}   
+.banner-content{      
+    margin-left: 100px; 
+    margin-top: 50px;
+}  
+
+.banner-title{    
+    font-size: 78px;
+    font-weight: 900;   
+    color: white;
+}           
+.shape{ 
+    font-family:'great vibes';  
+    font-size: 90px;
+    font-weight: 900;
+}   
+
+.banner-des{    
+    font-size: 16px;
+    font-weight: 400;   
+    color: rgba(255, 255, 255, 0.5);    
+    margin: 10px 0px;
+}   
+
+/* 2 buttons */ 
+
+.buttons{   
+    display: flex;
+}
+.join-club{              
+    font-size: 18px;
+    font-weight: 600; 
+    border-radius: 42px;
+    background: rgb(230, 83, 60);   
+    color: white;     
+    padding: 16px 40px 16px 40px;   
+    margin-left: -1px;  
+    margin-top: 20px;
+}   
+.download{      
+    font-size: 20px;
+    font-weight: 600;   
+    border: 1px solid white;   
+    border-radius: 42px;    
+    text-align: center;   
+    padding: 13px 20px 16px;   
+    background: transparent;    
+    color: white;
+}   
+
+
+/* banner Image */  
+
+.body-man{  
+    width: 349px;
+    height: 580px;
+    margin-left: 100px;
+
+}   
+
+.image-container{   
+    width: 800px;   
+    height: 600px;   
+    margin: 0px 0px 0px 100px; 
+    background-image: url(images/Images\ 2.png);    
+    background-repeat: no-repeat;   
+    background-size: 45%;   
+    background-position: center;   
+}   
+
+/* video Tutorial Button */ 
+.dot{   
+    width: 40px;  
+    margin: 0px 20px 0px 0px;   
+    padding-top: 15px;
+}
+.video{     
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54); 
+    text-align: left;   
+    justify-content: space-around;  
+    display: flex;    
+    padding: 10px;
+    margin: 200px 0px 30px 100px; 
+}       
+
+.btn-text{  
+    color: rgba(239, 237, 232, 0.65);   
+    padding: 10px;  
+    padding-right: 30px;
+}
+    
+.text-video{   
+    font-size: 24px;
+    font-weight: 900;   
+    text-align: right;  
+    color: rgb(250, 250, 249);
+}   
+
+/* free workout button */   
+
+.free-workout-btn{  
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    text-align: left;   
+    padding: 10px;  
+    padding-right: 30px;    
+    padding-left: 30px;
+    margin: 150px 0px 0px 440px;
+}       
+
+.work-text{     
+    font-size: 13px;
+    font-weight: 400; 
+    color: rgba(255, 255, 255, 0.65); 
+}
+    
+.work-text{   
+    font-size: 40px;
+    font-weight: 900;  
+    color: rgb(250, 250, 2496
+    _ );
+}   
+
+/* Change the habit section start */
+
+.change-habit-container{
+    justify-content: center;
+    text-align: center; 
+    padding-bottom: 100px;  
+    background-color: black; 
+    color: white;
+}       
+
+.habit-title{    
+    font-size: 48px;
+    font-weight: 900;   
+    padding-top: 100px;   
+    color: rgb(255, 255, 255);
+}   
+
+.habit-dis{ 
+    font-size: 14px;
+    font-weight: 400;   
+    margin: 40px 0px;   
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.change-habit-section{   
+    display: flex;
+}
+
+.change-habit-cards{        
+    display: flex;  
+    justify-content: center;    
+}   
+
+.habits{       
+    padding: 0px 50px;
+}   
+
+.habit-image{   
+    border-radius: 100px;   
+    border: 4px solid rgb(34, 34, 34);;
+}   
+
+.habit-card-title{  
+    font-size: 18px;
+    font-weight: 600;   
+    color: rgb(255, 255, 255)
+}   
+
+.habit-card-des{    
+    font-size: 14px;
+    font-weight: 400;   
+    color: rgba(255, 255, 255, 0.5);
+}   
+
+/* Run an extra mile easily */          
+.run{   
+    display: flex;  
+    background: rgb(34, 34, 34);  
+    padding: 20px;  
+    border-radius: 18px;
+    margin: 150px 100px;
+    
+}       
+.run-container{        
+    text-align: left;   
+    padding: 20px 400px 20px 20px;
+}   
+
+.run-title{ 
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;   
+    padding-bottom: 20px;
+}
+
+.run-des{   
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;   
+    padding: 10px 5px
+}   
+
+.run-image{ 
+    max-width:400px;
+    
+}       
+
+/* Bmi Calculator */    
+
+.calculator{    
+    background: rgb(34, 34, 34);    
+    display: flex;  
+    justify-content: space-between; 
+    padding: 50px 10px 100px 100px;
+}   
+
+/* Bmi chart */     
+
+.bmi-chart-title{  
+    font-size: 30px;
+    font-weight: 900;   
+    margin-left: 50px;  
+    color: rgb(255, 255, 255);  
+    padding: 20px;  
+
+}
+.bmi-table {
+    width: 100%;
+    border: 1px solid rgba(97, 97, 97, 0.5);    
+    color: rgba(255, 255, 255, 0.5);    
+    margin-top: 50px;   
+    margin-left: 60px;
+}
+
+.bmi-table th, .bmi-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(87, 87, 87, 0.5); 
+    border-left: 1px solid rgba(92, 89, 89, 0.5); 
+}
+
+.bmi-table th {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.bmi-table td {
+    color: rgba(255, 255, 255, 0.5);
+}       
+
+    /* Bmi calculator */
+
+.bmi-calculator{    
+    width: 577px;
+    height: 386px;
+}       
+
+.cal-title{ 
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;   
+    margin-top: 10px;   
+    padding: 10px;
+}
+
+.cal-des{   
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;   
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px; 
+}
+
+.input-group {  
+    border: 1px solid yello;
+    display: flex;
+    margin-bottom: 15px;    
+    justify-content: space-between;     
+    padding: 5px;   
+    margin: 10px;
+}
+select.activity-select{     
+    width: 100%;
+    height: 50px;
+    text-align: start;
+}   
+
+
+input[type="text"], select {
+    width: 45%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.6);    
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button {    
+    width: 224px;
+    height: 54px;
+    padding: 10px;
+    border: none;
+    border-radius: 42px;    
+    background: rgb(230, 83, 60);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.9s ease smooth;  
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #d13c3c;
+}   
+
+
+/* Team Section */  
+ .meet-team-card{   
+    justify-items: center;  
+    position: relative;    
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);   
+    margin: 100px;  
+    display: grid;     
+    grid-template-columns: repeat(3, 1fr);}
+
+.meet-title{    
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;    
+    text-align: center; 
+    margin-top: 100px;  
+    padding: 40px;
+
+}   
+.meet-des{  
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;   
+    text-align: center;
+}   
+
+.team-member{         
+    position: relative;  
+    width: 326.67px;
+    height: 272px;  
+    margin: 20px -50px 30px -40px;
+}       
+.member-image{  
+    width: 326.67px;
+    height: 272px;  
+    position: absolute; 
+    border-radius: 20px;
+}
+
+.member-name{   
+    margin-top: 220px;  
+    padding-left: 15px; 
+    font-size: 20px;   
+    color: #fff;    
+    position: absolute;
+}   
+
+.member-post{   
+    position: absolute;
+    margin-top: 250px;  
+    padding-left: 15px; 
+    color: #b8b3b3;
+}   
+
+/* footer Section */    
+
+
+.footer-content{        
+    background: rgba(255, 255, 255, 0.1);
+    padding-bottom: 30px;   
+
+}   
+
+.footer-title{  
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;   
+    padding-top: 100px; 
+    margin: 100px 0px 30px 140px; 
+}   
+
+.footer-des{    
+    font-size: 18px;
+    font-weight: 400;   
+    color: rgba(255, 255, 255, 0.5);    
+    margin-left: 140px; 
+}   
+
+.footer-links{  
+    display: flex;  
+    justify-content: space-around;
+     margin: 100px 0px 100px 600px;
+}   
+
+.footer-service{    
+    color: #fff;
+    margin-top: -240px;     
+    margin-left: 50px;
+}   
+
+.footer-service-title{  
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}   
+
+.footer-service-list{   
+    list-style: none;   
+    padding-top: 30px;  
+}   
+
+.service-item{  
+    padding: 10px 0px;  
+}   
+
+.service-link{  
+    text-decoration: none;  
+    color: rgba(255, 255, 255, 0.5);
+}   
+
+.footer-end{    
+    color: #b8b3b3;  
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    font-weight: 400; 
+    text-align: center; 
+    padding: 20px;  
+    border-top: 0.1px solid #ffffff;
+}
