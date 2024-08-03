@@ -16,7 +16,8 @@
         <!-- nav section start -->  
 
         <nav class="navbar">    
-            <h3 class="brand"> Iron Gym </h3>    
+            <h3 class="brand"> Iron Gym </h3>   
+            <img class="bar" src="images/bars-solid.svg" alt="">   
              <ul class="nav-links">
                 <li class="home-btn"><a href="" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="" class="nav-link">Service</a></li>
@@ -153,70 +154,79 @@
         <!-- Bmi Calculator --> 
 
         <!-- Bmi Chart -->
-        <div class="calculator">
-            <div class="bmi-chart">
-                <h2 class="bmi-chart-title">    
+       <div class="calculator-container">   
+
+             <h3 class="cal-container-title">  
+            BMI Calculator</h3> 
+            <p class="cal-container-des"> 
+                We believe fitness should be accessible to 
+                everyone, everywhere, regardless of income of access to a gym.
+            </p>
+
+            <div class="calculator">
+                <div class="bmi-chart">
+                    <h2 class="bmi-chart-title">    
                     BMI Calculator Chart</h2>
-                <table class="bmi-table">
-                    <thead class="chart-head">
-                        <tr>
-                            <th>BMI</th>
-                            <th>Weight Status</th>
-                        </tr>
-                    </thead>
-                    <tbody class="chart-body">
-                        <tr>
-                            <td>Below 18.5</td>
-                            <td>Underweight</td>
-                        </tr>
-                        <tr>
-                            <td>18.5 - 24.9</td>
-                            <td>Healthy</td>
-                        </tr>
-                        <tr>
-                            <td>25.0 - 29.9</td>
-                            <td>Overweight</td>
-                        </tr>
-                        <tr>
-                            <td>30.0 - and Above</td>
-                            <td>Obese</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>  
+                    <table class="bmi-table">
+                        <thead class="chart-head">
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="chart-body">
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>  
     
             <!-- Bmi calculator -->
-            <div class="bmi-calculator">
-                <h2 class="cal-title">Calculate your BMI</h2>
-                <p class="cal-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-                <form>
-                    <div class="input-group">
-                        <input type="text" placeholder="Height/cm">
-                        <input type="text" placeholder="Weight/kg">
-                    </div>
-                    <div class="input-group">
-                        <input type="text" placeholder="Age">
-                        <select>
-                            <option value="" disabled selected>Sex</option>
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                        </select>
-                    </div>
-                    <div class="input-group">
-                        <select class="activity-select">
-                            <option value="" disabled selected>Select an activity factor</option>
-                            <option value="1.2">Sedentary (little or no exercise)</option>
-                            <option value="1.375">Lightly active (light exercise/sports 1-3 days/week)</option>
-                            <option value="1.55">Moderately active (moderate exercise/sports 3-5 days/week)</option>
-                            <option value="1.725">Very active (hard exercise/sports 6-7 days a week)</option>
-                            <option value="1.9">Super active (very hard exercise/sports & physical job or 2x training)</option>
-                        </select>
-                    </div>
-                    <button type="button">Calculate</button>
-                </form>
+                <div class="bmi-calculator">
+                    <h2 class="cal-title">Calculate your BMI</h2>
+                    <p class="cal-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" placeholder="Height/cm">
+                            <input type="text" placeholder="Weight/kg">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" placeholder="Age">
+                            <select>
+                                <option value="" disabled selected>Sex</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                         <select class="activity-select">
+                                <option value="" disabled selected>Select an activity factor</option>
+                                <option value="1.2">Sedentary (little or no exercise)</option>
+                                <option value="1.375">Lightly active (light exercise/sports 1-3 days/week)</option>
+                                <option value="1.55">Moderately active (moderate exercise/sports 3-5 days/week)</option>
+                                <option value="1.725">Very active (hard exercise/sports 6-7 days a week)</option>
+                                <option value="1.9">Super active (very hard exercise/sports & physical job or 2x training)</option>
+                            </select>
+                        </div>
+                        <button class="button"              type="button">Calculate</button>
+                    </form>
+                </div>
             </div>
-        </div>
-
+     </div>
 
         <!-- My Own created section for ordering suppliment -->
 
