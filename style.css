@@ -767,7 +767,8 @@ button:hover {
         padding-right: -30px;    
         padding-left: -30px;    
         margin-left: 350px; 
-        margin-top: 130px;
+        margin-top: 130px;  
+        color: #b8b3b3;
     }   
 
     .work-text{ 
@@ -886,7 +887,7 @@ button:hover {
         width: 100%;
         display: grid;  
         grid-template-columns: repeat(1, 1fr);  
-        margin-left: -130px;
+        margin-left: -160px;
     }   
 
 
